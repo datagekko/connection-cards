@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Playfair Display'), url(PlayfairDisplay-VariableFont_wght.ttf) format('tff');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Mulish'), url(Mulish-VariableFont_wght.ttf) format('tff');
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
