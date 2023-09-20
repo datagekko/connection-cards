@@ -36,6 +36,7 @@ function App() {
             <Card question={currentQuestion} />
           </div>
         </div>
+        <p className='mb-6 text-xl text-center'>Pull a card and ask your partner a question.</p>
     </div>
   );
 }
