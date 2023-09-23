@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/connection-cards/static/css/main.f96c0895.css",
+    "main.js": "/connection-cards/static/js/main.5d86460f.js",
+    "static/js/787.8517b185.chunk.js": "/connection-cards/static/js/787.8517b185.chunk.js",
+    "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/connection-cards/static/media/PlayfairDisplay-VariableFont_wght.20240034b80f50c3ad00.ttf",
+    "static/media/Mulish-VariableFont_wght.ttf": "/connection-cards/static/media/Mulish-VariableFont_wght.c3d26f19ac7f56a0fd74.ttf",
+    "index.html": "/connection-cards/index.html",
+    "main.f96c0895.css.map": "/connection-cards/static/css/main.f96c0895.css.map",
+    "main.5d86460f.js.map": "/connection-cards/static/js/main.5d86460f.js.map",
+    "787.8517b185.chunk.js.map": "/connection-cards/static/js/787.8517b185.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f96c0895.css",
+    "static/js/main.5d86460f.js"
+  ]
+}
