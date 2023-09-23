@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import Card from '../components/Card';
+import CardDeck from '../components/CardDeck';
 import questions from './questions.js';
 import './App.css';
 
 function App() {
   const [shownIndices, setShownIndices] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(() => getRandomQuestion(shownIndices));
+  const [lastQuestion, setLastQuestion] = useState(null);
 
   function getRandomQuestion(currentShownIndices) {
     if (currentShownIndices.length === questions.length) {
@@ -24,6 +25,7 @@ function App() {
   }
 
   const handleCardClick = () => {
+    setLastQuestion(currentQuestion); // Set the last question before getting a new one
     setCurrentQuestion(getRandomQuestion(shownIndices));
   };
 
@@ -33,7 +35,7 @@ function App() {
         <p className='mb-6 text-xl text-center'>Play a game of genuine connection.</p>
         <div className='flex-grow flex items-center'>
           <div onClick={handleCardClick}>
-            <Card question={currentQuestion} />
+            <CardDeck currentQuestion={currentQuestion} lastQuestion={lastQuestion} />
           </div>
         </div>
         <p className='mb-6 text-xl text-center'>Pull a card and ask your partner a question.</p>
